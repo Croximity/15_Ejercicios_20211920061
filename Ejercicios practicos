@@ -1,0 +1,212 @@
+Ejercicio 2.14
+
+public class Ejercicio214
+{
+    public static void main(String[]args)
+    {
+    //instruccion a
+        System.out.println("1 2 3 4");
+    //instruccion b
+        System.out.print("1");
+        System.out.print(" 2");
+        System.out.print(" 3");
+        System.out.print(" 4\n");
+    //intruccion c
+        System.out.printf("%s %s %s %s %n","1","2","3","4");
+    }
+}
+
+Ejercicio 2.15
+import java.util.Scanner;
+
+public class Ejercicio2_15
+{
+    public static void main (String[]args)
+    {
+        int a,b;
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("ingresa el primer numero: ");
+        a = input.nextInt();
+        System.out.print("ingresa el segundo numero: ");
+        b = input.nextInt();
+
+        System.out.println("La suma es: " + (a+b));
+        System.out.println("El multipliacion es: " + (a*b));
+        System.out.println("La resta es: " + (a-b));
+        System.out.println("la division es: " + (a/b));
+    }
+}
+
+Ejercicio2.17
+import java.util.Scanner;
+
+public class Ejercicio2_17
+{
+    public static void main(String[]args)
+    {
+        int a,b,c;
+        Scanner entrada = new Scanner(System.in);
+        
+        System.out.print("Ingresa el primer numero: ");
+            a = entrada.nextInt();
+        System.out.print("Ingresa el segundo numero: ");
+            b = entrada.nextInt();
+        System.out.print("Ingresa el tercer numero: ");
+            c = entrada.nextInt();
+
+        System.out.println("El suma es " + (a+b+c));
+        System.out.println("El promedio es " + ((a+b+c)/3));
+        System.out.println("El producto es " + (a*b*c));
+     //resultados
+        if (a<b)
+            if (a<c)
+                System.out.println("El numero menor es: " + a);
+        if (b<a)
+            if (b<c)
+                System.out.println("El numero menor es: " + b);
+        if (c<a)
+            if (c<b)
+                System.out.println("El numero menor es: " + c);        
+        if (a>b)
+            if (a>c)
+                System.out.println("El numero mayor es: " + a);          
+        if (b>a)
+            if(b>c)
+                System.out.println("El numero mayor es: " + b);
+        if (c>a)
+            if(c>b)
+                System.out.println("El numero mayor es: " + c);   
+    }
+}
+
+Ejercicio 2.18
+
+public class Ejercicio218
+{
+    public static void main (String[]args)
+    {
+        System.out.print("\n");
+        System.out.println("*********   ***     *       *");
+        System.out.println("*       *  *   *   ***     * *");
+        System.out.println("*       * *     * *****   *   *");
+        System.out.println("*       * *     *   *    *     *");
+        System.out.println("*       * *     *   *   *       *");
+        System.out.println("*       * *     *   *    *     *");
+        System.out.println("*       * *     *   *     *   *");
+        System.out.println("*       *  *   *    *      * *");
+        System.out.println("*********   ***     *       *");
+    }
+}
+
+Ejercicio 2.20
+
+imprime lo siguiente: 
+*
+***
+*****
+****
+
+Ejercicio 2.21
+
+imprime lo siguiente:
+***************
+**
+
+Ejercicio 2.23
+
+Imprime lo siguiente:
+*
+***
+*****
+
+Ejercicio 2.24
+
+
+import java.util.Scanner;
+
+public class Ejercicio2_24
+{
+    public static void main(String[]args)
+    {
+        int a,b,c,d,e;
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.print("Ingrese el primer numero: ");
+        a = entrada.nextInt();
+        System.out.print("Ingrese el segundo numero: ");
+        b = entrada.nextInt();
+        System.out.print("Ingrese el tercer numero: ");
+        c = entrada.nextInt();
+        System.out.print("Ingrese el cuarto numero: ");
+        d = entrada.nextInt();
+        System.out.print("Ingrese el quinto numero: ");
+        e = entrada.nextInt();
+
+        if (a>b)
+         if (a>c)
+          if (a>d)
+           if (a>e)
+            System.out.println("El numero mayor es: " + a);
+
+            /* para no hacer muy largo el ejercicio
+            la condicione se haran en una sola linea*/
+
+        if (b>a) if (b>c) if (b>d) if (b>e)
+            System.out.println("El numero mayor es: " + b);
+        if (c>a) if (c>b) if (c>d) if (c>e)
+            System.out.println("El numero mayor es: " + c);  
+        if (d>a) if (d>b) if (d>c) if (d>e)
+            System.out.println("El numero mayor es: " + d);
+        if (e>a) if (e>b) if (e>c) if (e>d)
+            System.out.println("El numero mayor es: " + e);
+
+        if (a<b) if (a<c) if (a<d) if (a<e)
+            System.out.println("El numero menor es: " + a);
+        if (b<a) if (b<c) if (b<d) if (b<e)
+            System.out.println("El numero menor es: " + b);
+        if (c<a) if (c<b) if (c<d) if (c<e)
+            System.out.println("El numero menor es: " + c);
+        if (d<a) if (d<b) if (d<c) if (d<e)
+            System.out.println("El numero menor es: " + d);
+        if (e<a) if (e<b) if (e<c) if (e<d)
+            System.out.println("El numero menor es: " + e);   
+    }
+}
+
+Ejercicio 2.27
+
+public class Ejercicio227
+{
+    public static void main(String[]args)
+    {
+        System.out.println("* * * * * * * *");
+        System.out.println(" * * * * * * * *");
+        System.out.println("* * * * * * * *");
+        System.out.println(" * * * * * * * *");
+        System.out.println("* * * * * * * *");
+        System.out.println(" * * * * * * * *");
+        System.out.println("* * * * * * * *");
+        System.out.println(" * * * * * * * *");
+    }
+}
+
+Ejercicio 2.28
+
+import java.util.Scanner;
+public class Ejercicio2_28
+{
+    public static void main(String[]args)
+    {
+        int a;
+        Scanner entrada = new Scanner(System.in);
+        
+        System.out.print("ingrese el radio de un circulo: ");
+        a = entrada.nextInt();
+        System.out.println("Diametro " + (2*a));
+        System.out.printf("%s %f %n", "Circunferencia", (2*Math.PI*a));
+        System.out.print("Area " + (a*a));
+    }
+
+
